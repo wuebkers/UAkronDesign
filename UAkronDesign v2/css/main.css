@@ -128,21 +128,26 @@ HOME PAGE
 }
 
 .logo{
+	width:100%;
 }
 
-.welcome {
+.designDot{
+	fill:rgb(239,65,53);
 }
 
-.info {
+.welcome{
 }
 
-.events {
+.info{
 }
 
-.contact {
+.events{
 }
 
-.jumbotron .blurb {
+.contact{
+}
+
+.jumbotron .blurb{
 position: absolute;
 }
 
