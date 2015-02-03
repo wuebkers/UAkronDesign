@@ -28,7 +28,9 @@ body {
 }
 
 
-/* Type Styles */
+/*----------------------------
+Typography
+------------*/
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -75,7 +77,37 @@ h1 {
 	font-weight: 700;
 }
 
-/* Link Styles */
+/*----------------------------
+Colors
+------------*/
+
+.blue {
+	color: #002532;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.green {
+	color: #7DC247;
+}
+
+.whitebkg {
+	background-color: #FFFFFF;
+}
+
+.bluebkg {
+	background-color: #002532;
+}
+
+.greenbkg {
+	background-color: #7DC247;
+}
+
+/*----------------------------
+Link
+------------*/
 
 a {
 	text-decoration: none;
@@ -115,30 +147,4 @@ nav a:hover {
 
 .header2 {
 	display: none;
-}
-
-/* Colors */
-
-.blue {
-	color: #002532;
-}
-
-.white {
-	color: #FFFFFF;
-}
-
-.green {
-	color: #7DC247;
-}
-
-.whitebkg {
-	background-color: #FFFFFF;
-}
-
-.bluebkg {
-	background-color: #002532;
-}
-
-.greenbkg {
-	background-color: #7DC247;
 }
