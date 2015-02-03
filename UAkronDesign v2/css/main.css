@@ -155,6 +155,10 @@ position: absolute;
 
 footer {
 	padding:1em;
+<<<<<<< HEAD
+=======
+	height:10em;
+>>>>>>> FETCH_HEAD
 	background: #333;
 	z-index: -1;
 	width:100%;
