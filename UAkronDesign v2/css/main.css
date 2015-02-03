@@ -8,23 +8,8 @@ Version: 1.0
 Author URI: Skylar Wuebker & Andrew Krigline 
 */
 
-/* FONT NAMES AND WEIGHTS
-
-font-family: 'Source Sans Pro', sans-serif; */
-
-
-body {
-	margin: 0px;
-	padding: 0px;
-	background-color: #FFFFFF;
-	font-weight: 400;
-	text-align: left;
-}
-
-.container {
-	margin:0;
-	padding:0;
-	min-height:100%;
+html,body{
+	height:100%;
 }
 
 
@@ -126,6 +111,10 @@ nav a:hover {
 }
 
 /* HOME PAGE */
+.jumbotron{
+	height:70%;
+}
+
 .welcome {
 }
 
