@@ -155,7 +155,7 @@ position: absolute;
 
 footer {
 	padding:1em;
-	height:9em;
+	height:10em;
 	background: #333;
 	position: fixed;
 	z-index: -1;
@@ -168,7 +168,7 @@ footer small{
 }
 
 .falseFooter {
-	height:9em;
+	height:10em;
 	display:block;
 }
 
