@@ -137,3 +137,12 @@ nav a:hover {
 .header2 {
 	display: none;
 }
+
+.titles {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
