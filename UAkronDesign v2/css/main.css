@@ -155,12 +155,17 @@ position: absolute;
 
 footer {
 	padding:1em;
-	height:9em;
 	background: #333;
-	position: fixed;
 	z-index: -1;
-	bottom: 0;
 	width:100%;
+}
+
+@media screen and (min-width:768px){
+	footer{
+		position:fixed;
+		bottom:0;
+		height:10em;
+	}
 }
 
 footer small{
@@ -168,8 +173,9 @@ footer small{
 }
 
 .falseFooter {
-	height:9em;
+	height:10em;
 	display:block;
+	z-index:-2;
 }
 
 .uaLogo{
