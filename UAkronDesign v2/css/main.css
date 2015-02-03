@@ -17,7 +17,6 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background-color: #FFFFFF;
-	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	text-align: left;
 }
@@ -27,40 +26,84 @@ body {
 	padding:0;
 	min-height:100%;
 }
-/* HOME PAGE */
-.welcome {
-	margin:0;
-	height:50em;
-	background:url(../images/seniorheaderimg.jpg);
-	background-size: cover;
+
+
+/* Type Styles */
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.info {
-	margin:0;
-	height:50em;
-	background:url(../images/seniorheaderimg.jpg);
-	background-size: cover;
+p {
+	font-weight: 400;
+	color: #002532;
 }
 
-.events {
-	margin:0;
-	height:50em;
-	background:url(../images/seniorheaderimg.jpg);
-	background-size: cover;
+
+h6 {
+	font-weight: 600;
 }
 
-.contact {
-	margin:0;
-	height:50em;
-	background:url(../images/seniorheaderimg.jpg);
-	background-size: cover;
+h5 {
+	font-weight: 600;
 }
-	
+
+
 h4 {
 	text-align:center;
 	font-size: 6em;
-	margin-top: 20%;
+}
 
+h4 {
+	font-weight: 400;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 35px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+/* Link Styles */
+
+a {
+	text-decoration: none;
+	color: #7DC247;
+}
+a:hover {
+	color: #002532;
+}
+
+.footer a:hover {
+	color: #FFFFFF;
+}
+
+nav a:hover {
+	color: #002532;
+}
+
+/* HOME PAGE */
+.welcome {
+}
+
+.info {
+}
+
+.events {
+}
+
+.contact {
 }
 
 .header {
@@ -98,166 +141,6 @@ h4 {
 
 .greenbkg {
 	background-color: #7DC247;
-}
-
-/* Font Styles */
-
-p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-	color: #002532;
-	letter-spacing: 0.5px;
-	line-height: 18px;
-	margin-top: 12px;
-}
-
-.quote {
-	width: 360px;
-	padding-top: 175px;
-	padding-left: 137px;
-	line-height: 35px;
-	text-indent: -0.5em;
-}
-
-.quotelong {
-	width: 410px;
-	padding-top: 175px;
-	padding-left: 137px;
-	line-height: 35px;
-	text-indent: -0.5em;
-}
-
-
-h6 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
-	font-size: 47px;
-	margin-top: 0px;
-	margin-bottom: 4px;
-}
-
-h5 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
-	font-size: 42px;
-	margin-top: 3px;
-	margin-bottom: -17px;
-}
-
-h4 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	margin-bottom: 4px;
-}
-
-h3 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
-	font-size: 14px;
-	margin-bottom: 4px;
-}
-
-h2 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 35px;
-	margin-top: 0px;
-	margin-bottom: 4px;
-}
-
-h1 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
-	font-size: 78px;
-	margin-top: 35px;
-	margin-left: -5px;
-	margin-bottom: 30px;
-	line-height: 60px;
-}
-
-b { 	
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
-	line-height: 18px;
-	margin-top: 12px;
-}
-
-.small {
-	font-size: 10px;
-	font-weight: 400;
-	line-height: 20px;
-}
-
-.bullet {
-	list-style: outside;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 10px;
-	margin: -10px;
-	margin-left: -137px;
-	width: 220px;
-}
-
-.button {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 10px;
-}
-
-.arrow {
-	font-size: 8px;
-}
-
-.arrow2 {
-	font-size: 7px;
-}
-
-/* List Styles */
-
-ul {
-	margin: 0px;
-	padding-top: 10px;
-	position: relative;
-	margin-left: 98px;
-}
-
-li {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 14px;
-	float: left;
-	list-style: none;
-	margin-right: 47px;
-}
-
-nav ul ul {
-	display: none;
-}
-
-nav ul li:hover > ul {
-	display: block;
-}
-
-
-/* Link Styles */
-
-a {
-	text-decoration: none;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 14px;
-	color: #7DC247;
-}
-a:hover {
-	color: #002532;
-}
-
-.footer a:hover {
-	color: #FFFFFF;
-}
-
-nav a:hover {
-	color: #002532;
 }
 
 /* DIVS */
@@ -847,7 +730,6 @@ ul {
 }
 
 li {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	list-style: none;
@@ -1045,7 +927,6 @@ ul {
 }
 
 li {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	list-style: none;
@@ -1225,7 +1106,6 @@ ul {
 }
 
 li {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	list-style: none;
