@@ -163,6 +163,10 @@ footer {
 	width:100%;
 }
 
+footer small{
+	color:#ccc;
+}
+
 .falseFooter {
 	height:9em;
 	display:block;
