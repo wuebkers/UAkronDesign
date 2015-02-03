@@ -9,11 +9,14 @@
 	<title>University of Akron Graphic Design | Myers School of Art</title>	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,600italic' rel='stylesheet' type='text/css'>
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
+
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 
 <body>
@@ -42,7 +45,7 @@
 
 </div>
 
-<div class="clearing"></div>
+<div class="clearfix"></div>
 <div class="footer greenbkg">
 	<div class="story1">
 		<h3 class="blue">Myers School of Art</h3>
@@ -62,10 +65,26 @@
 		<h3><a href="http://spectrum.uakrondesign.com/" target="blank" class="blue">Spectrum <span class="arrow2">&#9658;</span></a></h3>
 		<h3><a href="http://splice.uakrondesign.com/" target="blank" class="blue">Splice <span class="arrow2">&#9658;</span></a></h3></div>
 		<div class="story3 push hide"><a href="http://www.uakron.edu"><img src="images/ualogo.png" width="150" /></a></div>
-		<div class="clearing"></div>
+		<div class="clearfix"></div>
 	</div>
 </div>
+<!-- /container -->        
+		
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
-	<script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
 </body>
 </html>
