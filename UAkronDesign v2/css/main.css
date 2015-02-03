@@ -160,10 +160,12 @@ footer {
 	position: fixed;
 	z-index: -1;
 	bottom: 0;
+	width:100%;
 }
 
-.falsefooter {
+.falseFooter {
 	height:9em;
+	display:block;
 }
 
 .uaLogo{
