@@ -107,6 +107,10 @@ a:hover {
 	text-decoration: none;
 }
 
+footer a {
+	font-size:.9em;
+}
+
 footer a:hover {
 	color:#FFF;
 }
