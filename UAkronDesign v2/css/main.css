@@ -156,6 +156,9 @@ position: absolute;
 footer {
 	padding:1em;
 	background: #333;
+	position: fixed;
+	z-index: -1;
+	bottom: 0;
 }
 /**************************************
 *
