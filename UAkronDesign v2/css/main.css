@@ -155,14 +155,15 @@ position: absolute;
 
 footer {
 	padding:1em;
+	height:9em;
 	background: #333;
-	//position: fixed;
+	position: fixed;
 	z-index: -1;
 	bottom: 0;
 }
 
 .falsefooter {
-	height:;
+	height:9em;
 }
 
 .uaLogo{
