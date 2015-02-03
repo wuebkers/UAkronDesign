@@ -138,6 +138,6 @@ nav a:hover {
 	display: none;
 }
 
-.jumbotron figcaption {
+.jumbotron .blurb {
 position: absolute;
 }
