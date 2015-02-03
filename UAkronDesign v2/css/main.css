@@ -114,7 +114,17 @@ nav a:hover {
 HOME PAGE 
 -----------*/
 .jumbotron{
-	height:75%;
+	height:90%;
+	width: 100%;
+	overflow: hidden;
+	padding:0;
+	margin:0;
+	position: relative;
+}
+
+.jumbotron img{
+	position:absolute;
+	height:100%;
 }
 
 .welcome {
