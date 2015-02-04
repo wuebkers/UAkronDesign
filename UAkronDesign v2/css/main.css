@@ -12,6 +12,29 @@ html,body{
 	height:100%;
 }
 
+/* Navigation */
+.nav {
+	height:60px;
+	width:100%;
+	background-color:#002532;
+}
+
+.nav li {
+	float:left;
+	padding:1.28em;
+	font-size: 1.1em;
+	list-style: none;
+}
+
+.nav a{
+	color:#7DC247;
+	text-decoration: none;
+}
+
+.nav a:hover{
+	color:#FFF;
+	transition:300ms;
+}
 
 /*----------------------------
 Typography
@@ -158,6 +181,20 @@ HOME PAGE
 position: absolute;
 }
 
+/* Info Page */
+.page {
+	height:40%;
+	width: 100%;
+}
+
+.page h4 {
+	padding:2em;
+	font-size:3em;
+	font-weight: 500;
+	color:#FFF;
+	text-align: left;
+	margin-top:1.4em;
+}
 
 footer {
 	padding:1em;
