@@ -36,6 +36,35 @@ html,body{
 	transition:300ms;
 }
 
+/* Footer */
+footer {
+  padding:1em;
+  background: #333;
+  z-index: -1;
+  width:100%;
+}
+
+@media screen and (min-width:768px){
+  section:last-of-type{
+    margin-bottom:10em;
+  }
+  footer{
+    position:fixed;
+    bottom:0;
+    height:10em;
+  }
+}
+
+footer small{
+  color:#ccc;
+}
+
+.uaLogo{
+  width:50%;
+  margin:0 25%;
+}
+
+
 /*----------------------------
 Typography
 ------------*/
@@ -181,9 +210,11 @@ HOME PAGE
 position: absolute;
 }
 
-/* Info Page */
+/*--------------------------
+INFO PAGE 
+-----------*/
 .page {
-	height:40%;
+	height:60%;
 	width: 100%;
 }
 
@@ -196,32 +227,8 @@ position: absolute;
 	margin-top:1.4em;
 }
 
-footer {
-	padding:1em;
-	background: #333;
-	z-index: -1;
-	width:100%;
-}
 
-@media screen and (min-width:768px){
-	#contact{
-		margin-bottom:10em;
-	}
-	footer{
-		position:fixed;
-		bottom:0;
-		height:10em;
-	}
-}
 
-footer small{
-	color:#ccc;
-}
-
-.uaLogo{
-	width:50%;
-	margin:0 25%;
-}
 
 /**************************************
 *
