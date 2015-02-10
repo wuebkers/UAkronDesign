@@ -272,6 +272,15 @@ section .container {
   font-size: 1.1em;
 }
 
+dd img {
+  height:1.9em;
+  float:left;
+  margin-left:.3em;
+  margin-right:1.5em;
+  margin-top:.5em;
+  margin-bottom:1.2em;
+}
+
 /*--------------------------
 EVENTS PAGE 
 -----------*/
