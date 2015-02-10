@@ -649,5 +649,4 @@
   } else {
     window.Odometer = Odometer;
   }
-  element.innerHTML = 123;
 }).call(this);
