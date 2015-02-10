@@ -243,6 +243,7 @@ INFO PAGE
 section .container {
   background-color: #FFF;
   z-index: 1000;
+  width: 100%;
 }
 
 .quickStats {
