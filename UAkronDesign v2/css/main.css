@@ -260,7 +260,14 @@ section .container {
   padding-bottom: .2em;
   border-bottom: 1px solid #7DC247;
 }
-
+.companies h1 {
+  font-size: 2.4em;
+  font-weight: 400;
+  color: #7DC247;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  border-bottom: 1px solid #7DC247;
+}
 .container p {
   font-size: 1.1em;
 }
