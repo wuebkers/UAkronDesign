@@ -181,7 +181,7 @@
     Odometer.prototype.renderInside = function() {
       this.inside = document.createElement('div');
       this.inside.className = 'odometer-inside';
-      this.el.innerHTML = 'Help';
+      this.el.innerHTML = '';
       return this.el.appendChild(this.inside);
     };
 
@@ -649,4 +649,5 @@
   } else {
     window.Odometer = Odometer;
   }
+  element.innerHTML = 123;
 }).call(this);
