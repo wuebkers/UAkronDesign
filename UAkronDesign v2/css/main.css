@@ -45,9 +45,11 @@ footer {
 }
 
 @media screen and (min-width:768px){
+  section{
+    background:#fff;
+  }
   section:last-of-type{
     margin-bottom:10em;
-    background:#fff;
   }
   footer{
     position:fixed;
@@ -307,7 +309,16 @@ h2{
 /*--------------------------
 CONTACT PAGE 
 -----------*/
-
+.overlay{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  z-index:80;
+}
 
 
 /**************************************
