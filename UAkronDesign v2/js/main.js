@@ -1,15 +1,41 @@
 if (document.getElementById('info')){
-	$(document).ready( function(){
-		setTimeout( function (){
-	        $('.rate').html(99);
-	    }, 1000 );
-		setTimeout( function (){
-	        $('.ratio1').html(118);
-	        $('.ratio2').html(1);
-	    }, 1100 );
-	    setTimeout( function (){
-	        $('.size').html(200);
-	    }, 1200 );
+
+    var el = document.querySelector('.rate');
+	od1 = new Odometer({
+	  el: el,
+	  value: 00,
 	});
+
+	var el = document.querySelector('.ratio1');
+	od2 = new Odometer({
+	  el: el,
+	  value: 00,
+	});
+
+
+	var el = document.querySelector('.ratio2');
+	od3 = new Odometer({
+	  el: el,
+	  value: 00,
+	});
+
+	var el = document.querySelector('.size');
+	od4 = new Odometer({
+	  el: el,
+	  value: 00,
+	});
+
+	setTimeout( function(){
+		od1.update(99)
+	}, 1000 );
+
+	setTimeout( function(){
+		od2.update(1);
+		od3.update(18)
+	}, 1400 );
+
+	setTimeout( function(){
+		od4.update(200)
+	}, 1800 );
 }
 

@@ -118,7 +118,9 @@ h2 {
 }
 
 h1 {
-	font-weight: 700;
+	font-weight: 100;
+  font-size: 6em;
+
 }
 
 dd {
@@ -240,12 +242,6 @@ INFO PAGE
 	color:#FFF;
 	text-align: left;
 	margin-top:1.4em;
-}
-
-section .container {
-  background-color: #FFF;
-  z-index: 1000;
-  box-shadow: rgba(0, 0, 0, 0.498039) 3px 3px 20px;
 }
 
 .quickStats {
