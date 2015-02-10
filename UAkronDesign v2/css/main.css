@@ -119,6 +119,18 @@ h1 {
 	font-weight: 700;
 }
 
+dd {
+  font-size: 2.8em;
+  font-weight: 300;
+}
+
+dt {
+  font-size: 1.5em;
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+  margin-top: 1.4em;
+}
+
 /*----------------------------
 Colors
 ------------*/
@@ -226,6 +238,15 @@ INFO PAGE
 	color:#FFF;
 	text-align: left;
 	margin-top:1.4em;
+}
+
+section .container {
+  background-color: #FFF;
+  z-index: 1000;
+}
+
+.quickStats {
+  padding-top: 2em;
 }
 
 
