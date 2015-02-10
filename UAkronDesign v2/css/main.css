@@ -243,13 +243,25 @@ INFO PAGE
 section .container {
   background-color: #FFF;
   z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.498039) 3px 3px 20px;
 }
 
 .quickStats {
   padding-top: 2em;
 }
 
+.content h1 {
+  font-size: 2.4em;
+  font-weight: 400;
+  color: #7DC247;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  border-bottom: 1px solid #7DC247;
+}
 
+.container p {
+  font-size: 1.1em;
+}
 
 /*--------------------------
 EVENTS PAGE 
