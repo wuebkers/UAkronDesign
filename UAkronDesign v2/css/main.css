@@ -38,6 +38,10 @@ html,body{
 	text-decoration: none;
 }
 
+.navbar {
+  margin-bottom: 0;
+}
+
 .nav li a:hover{
   background:transparent; 
 	color:#FFF;
