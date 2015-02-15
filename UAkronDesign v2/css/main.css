@@ -26,7 +26,8 @@ html,body{
 .nav li {
 	float:left;
 	padding:.8em;
-  margin-left:2em;
+  padding-left: 0;
+  margin-right: 2.2em;
 	font-size: 1.4em;
 	list-style: none;
   font-family: 'Source Sans Pro', sans-serif;
@@ -58,6 +59,7 @@ footer {
   width:100%;
 }
 
+
 @media screen and (min-width:768px){
   section{
     background:#fff;
@@ -74,6 +76,7 @@ footer {
 
 footer small{
   color:#ccc;
+  text-align: center;
 }
 
 .uaLogo{
@@ -231,13 +234,6 @@ HOME PAGE
 figcaption {
   width:100%;
 }
-figcaption h6 {
-  text-align:center;
-  color:#FFF;
-  font-size: 2em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-}
 
 .jumbotron p {
   color: #FFF;
@@ -273,6 +269,15 @@ position: absolute;
 
 .jumbotron:hover .blurb{
   opacity: 1;
+}
+
+figcaption h6 {
+  text-align:center;
+  color:#FFF;
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  position: relative;
 }
 
 /*--------------------------
@@ -399,6 +404,17 @@ CONTACT PAGE
   .embed-responsive{
     padding-top:25%;
   }
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 992px) {
+
+  .nav li {
+    margin-right:0;
+  }
+
 }
 
 /**************************************
