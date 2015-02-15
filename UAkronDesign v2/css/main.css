@@ -492,6 +492,10 @@ CONTACT PAGE
     padding-left:.8em;
   }
 
+  section.jumbotron img {
+    opacity: .6;
+  }
+
 }
 
 /**************************************

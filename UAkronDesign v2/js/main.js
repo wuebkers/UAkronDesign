@@ -63,14 +63,14 @@ if (document.getElementById('info')){
 	setTimeout( function(){
 		od7.update(1919)
 	}, 1800 );
-}
+};
 
 $(window).load(function() {
     $imagePan_panning=$(".jumbotron .panning");
     $imagePan=$(".jumbotron");
     $imagePan_container=$(".jumbotron .panme");
  
-    $imagePan_panning.css("margin-top",($imagePan.height()-$imagePan_panning.height())/2+"px");
+    //$imagePan_panning.css("margin-top",($imagePan.height()-$imagePan_panning.height())/2+"px");
     containerWidth=$imagePan.width();
     containerHeight=$imagePan.height();
     totalContentW=$imagePan_panning.width();
