@@ -99,8 +99,8 @@ footer {
   section{
     background:#fff;
   }
-  section:last-of-type{
-    margin-bottom:10em;
+  .pseudofooter{
+    height:10em;
   }
   footer{
     position:fixed;
