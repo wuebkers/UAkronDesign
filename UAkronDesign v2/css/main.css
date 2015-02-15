@@ -237,7 +237,6 @@ figcaption h6 {
   font-size: 2em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  margin-top:20em;
 }
 
 .jumbotron p {
@@ -268,6 +267,12 @@ position: absolute;
 .blurb {
   margin-top:35em;
   margin-left: 5em;
+  opacity: 0;
+  transition: all 300ms;
+}
+
+.jumbotron:hover .blurb{
+  opacity: 1;
 }
 
 /*--------------------------
