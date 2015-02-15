@@ -218,7 +218,8 @@ HOME PAGE
 
 .jumbotron img{
 	position:absolute;
-	height:100%;
+	min-height:100%;
+  min-width:100%;
 }
 
 .logo{
@@ -239,6 +240,10 @@ figcaption h6 {
   margin-top:20em;
 }
 
+.jumbotron p {
+  color: #FFF;
+}
+
 .welcome{
 }
 
@@ -254,6 +259,15 @@ figcaption h6 {
 
 .jumbotron .blurb{
 position: absolute;
+}
+
+.blurb h4 {
+  text-align: left;
+}
+
+.blurb {
+  margin-top:35em;
+  margin-left: 5em;
 }
 
 /*--------------------------
