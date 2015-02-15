@@ -34,6 +34,12 @@ if (document.getElementById('info')){
 	  el: el,
 	  value: 00,
 	});
+	var el = document.querySelector('.found');
+	od7 = new Odometer({
+	  el: el,
+	  value: 00,
+	  format: 'dddd', // Change how digit groups are formatted, and how many digits are shown after the decimal point
+	});
 
 	setTimeout( function(){
 		od1.update(80)
@@ -54,4 +60,7 @@ if (document.getElementById('info')){
 	setTimeout( function(){
 		od6.update(100)
 	}, 1400 );
+	setTimeout( function(){
+		od7.update(1919)
+	}, 1800 );
 }
