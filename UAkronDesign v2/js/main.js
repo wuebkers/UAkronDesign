@@ -24,18 +24,34 @@ if (document.getElementById('info')){
 	  el: el,
 	  value: 00,
 	});
+	var el = document.querySelector('.majors');
+	od5 = new Odometer({
+	  el: el,
+	  value: 00,
+	});
+	var el = document.querySelector('.awards');
+	od6 = new Odometer({
+	  el: el,
+	  value: 00,
+	});
 
 	setTimeout( function(){
-		od1.update(99)
+		od1.update(80)
 	}, 1000 );
 
 	setTimeout( function(){
 		od2.update(1);
-		od3.update(18)
+		od3.update(16)
 	}, 1400 );
 
 	setTimeout( function(){
 		od4.update(200)
 	}, 1800 );
-}
 
+	setTimeout( function(){
+		od5.update(650)
+	}, 1000 );
+	setTimeout( function(){
+		od6.update(100)
+	}, 1400 );
+}
