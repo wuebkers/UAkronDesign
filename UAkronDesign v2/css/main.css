@@ -454,7 +454,27 @@ CONTACT PAGE
 
 }
 
+@media screen and (max-width: 768px) {
 
+  .blurb {
+    text-align: center;
+    width: 100%;
+    padding-left:0;
+  }
+
+  .blurb h4 {
+    font-size: 4em;
+    text-align: center;
+  }
+
+  section.jumbotron .blurb {
+    left:0;
+    bottom:30%;
+    top:30%;
+    padding-left:.8em;
+  }
+
+}
 
 /**************************************
 *
