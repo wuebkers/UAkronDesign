@@ -14,16 +14,23 @@ html,body{
 
 /* Navigation */
 .nav {
-	height:60px;
 	width:100%;
 	background-color:#002532;
 }
 
+.nav ul {
+
+}
+
 .nav li {
 	float:left;
-	padding:1.28em;
-	font-size: 1.1em;
+	padding:1em;
+  margin-left:2em;
+	font-size: 1.2em;
 	list-style: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  letter-spacing: .12em;
 }
 
 .nav a{
@@ -34,6 +41,10 @@ html,body{
 .nav a:hover{
 	color:#FFF;
 	transition:300ms;
+}
+
+.nav img {
+  height:30px;\margin-top:.2em;
 }
 
 /* Footer */
