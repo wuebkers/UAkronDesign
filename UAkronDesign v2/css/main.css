@@ -346,7 +346,19 @@ CONTACT PAGE
   z-index:80;
 }
 
+.contactContent {
+  padding-top:2em;
+  padding-bottom:4em;
+}
 
+.contactContent h1{
+  font-size: 2.4em;
+  font-weight: 400;
+  color: #7DC247;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  border-bottom: 1px solid #7DC247;
+}
 
 @media screen and (min-width:768px){
   .event,
