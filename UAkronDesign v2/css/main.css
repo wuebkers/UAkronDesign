@@ -60,7 +60,7 @@ html,body{
   padding:0;
 }
 
-.container-fluid {
+nav .container-fluid {
   padding-left:1em;
   padding-right:0;
   background-color:#002532;

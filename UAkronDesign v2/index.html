@@ -57,7 +57,11 @@
 	</figure>
 
 
-	<section class="info jumbotron">
+	<section class="info jumbotron focuspoint"
+			data-focus-x="0.23"
+			data-focus-y="0.049"
+			data-image-w="2000"
+			data-image-h="1000">
 		<img src="img/treats.jpg" alt="">
 		<a href="info.html">
 			<div class="blurb info col-xs-12 col-sm-6 col-md-4">
@@ -68,7 +72,11 @@
 		</a>
 	</section>
 
-	<section class="events jumbotron">
+	<section class="events jumbotron focuspoint" 
+			data-focus-x="0.33"
+			data-focus-y="0.149"
+			data-image-w="2000"
+			data-image-h="1000">
 		<img src="img/contact.jpg" alt="">
 		<a href="events.html">
 			<div class="blurb events col-xs-12 col-sm-6 col-md-4">
@@ -79,7 +87,11 @@
 		</a>
 	</section>
 
-	<section id="contact" class="contact jumbotron">
+	<section id="contact" class="contact jumbotron focuspoint"
+			data-focus-x="0"
+			data-focus-y="0"
+			data-image-w="2000"
+			data-image-h="1000">
 		<img src="img/event.jpg" alt="">
 		<a href="contact.html">
 			<div class="blurb contact col-xs-12 col-sm-6 col-md-4">
@@ -118,6 +130,23 @@
 
 <!-- /container -->        
 		
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.focuspoint.js"></script>
+		
+		<script type="text/javascript">
+		//<![CDATA[	
+			
+			(function($) {
+				$(document).ready(function() {
+					
+					//Fire plugin
+					$('.focuspoint').focusPoint();
+					
+				});
+			}(jQuery));
+		
+		//]]>
+	</script>	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
