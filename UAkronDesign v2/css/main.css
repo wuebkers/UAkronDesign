@@ -45,11 +45,48 @@ html,body{
 	transition:300ms;
 }
 
+.icon-bar {
+  color:#7DC247;
+}
+
 .nav img {
   height:25px;
   padding:0;
   margin-top: -5px;
 }
+
+.collapsing .nav li.active a,
+.collapse.in .nav li.active a{
+  background:rgb(244,141,40);
+  color:#fff;
+}
+
+.nav li a:hover,
+.nav li a:focus{
+  background:rgb(244,141,40);
+  color:#FFF;
+  transition: 300ms;
+}
+
+.navbar-toggle{
+  background:rgb(55,55,55);
+}
+
+.navbar-toggle.collapsed{
+  background: #002532;
+}
+
+.navbar-toggle .icon-bar{
+  background:#fff;
+  height:3px;
+}
+
+.navbar-nav+li{display:none;}
+
+dl {
+  margin-bottom:2.5em;
+}
+
 
 /* Footer */
 footer {
