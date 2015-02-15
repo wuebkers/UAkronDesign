@@ -221,7 +221,21 @@ HOME PAGE
 }
 
 .logo{
-	width:100%;
+	width:70%;
+  margin-left: 20em;
+  margin-top:-5em;
+
+}
+figcaption {
+  width:100%;
+}
+figcaption h6 {
+  text-align:center;
+  color:#FFF;
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin-top:20em;
 }
 
 .welcome{
