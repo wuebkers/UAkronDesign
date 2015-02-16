@@ -65,17 +65,14 @@ if (document.getElementById('info')){
 
 
 $(window).load(function() {
-  //$outer_container=$("#intro");
   $imagePan_panning=$(".jumbotron .panning");
   $imagePan=$(".jumbotron");
   $imagePan_container=$(".jumbotron .imagePanner");
 
-    //$imagePan_panning.css("margin-top",($imagePan.height()-$imagePan_panning.height())/2+"px");
     containerWidth=$imagePan.width();
     containerHeight=$imagePan.height();
     totalContentW=$imagePan_panning.width();
     totalContentH=$imagePan_panning.height();
-    $imagePan_container.css("width",totalContentW).css("height",totalContentH);
  
     function MouseMove(e){
         var mouseCoordsX=(e.pageX - $imagePan.offset().left);
@@ -93,10 +90,8 @@ $(window).load(function() {
         var animSpeed=500; //ease amount
         var easeType="easeOutCirc";
         if(mouseCoordsX>destX || mouseCoordsY>destY){
-            //$imagePan_container.css("left",-thePosA-marginL); $imagePan_container.css("top",-thePosC-marginT); //without easing
             $imagePan_container.stop().animate({left: -thePosA-marginL, top: -thePosC-marginT}, animSpeed,easeType); //with easing
         } else if(mouseCoordsX<destX || mouseCoordsY<destY){
-            //$imagePan_container.css("left",thePosB-marginL); $imagePan_container.css("top",thePosD-marginT); //without easing
             $imagePan_container.stop().animate({left: thePosB-marginL, top: thePosD-marginT}, animSpeed,easeType); //with easing
         } else {
             $imagePan_container.stop();
@@ -135,9 +130,17 @@ $(window).load(function() {
         MouseMove(event);
     });
   });
+});
 
+$(window).resize(function() {
+    $imagePan.unbind("mousemove");
+    $(window).load();
 });
 
 $(document).ready( function(){
   $('.focuspoint').focusPoint();
 });
+
+$(window).resize( function(){
+  $('.focuspoint').focusPoint();
+})
