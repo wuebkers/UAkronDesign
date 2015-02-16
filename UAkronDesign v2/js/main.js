@@ -63,7 +63,6 @@ if (document.getElementById('info')){
 	}, 1800 );
 };
 
-
 $(window).load(function() {
   //$outer_container=$("#intro");
   $imagePan_panning=$(".jumbotron .panning");
@@ -104,8 +103,35 @@ $(window).load(function() {
     }
  
     $imagePan_panning.css("margin-left",($imagePan.width()-$imagePan_panning.width())/2).css("margin-top",($imagePan.height()-$imagePan_panning.height())/2);
- 
-  $imagePan.bind("mousemove", function(event){
+  
+  $('.jumbotron.info').hover( function(){
+
+    $imagePan_panning=$(".info.jumbotron .panning");
+    $imagePan=$(".info.jumbotron");
+    $imagePan_container=$(".info.jumbotron .imagePanner");
+
+    $(this).bind("mousemove", function(event){
         MouseMove(event);
     });
+  });
+  $('.jumbotron.events').hover( function(){
+
+    $imagePan_panning=$(".events.jumbotron .panning");
+    $imagePan=$(".events.jumbotron");
+    $imagePan_container=$(".events.jumbotron .imagePanner");
+
+    $(this).bind("mousemove", function(event){
+        MouseMove(event);
+    });
+  });
+  $('.jumbotron.contact').hover( function(){
+
+    $imagePan_panning=$(".contact.jumbotron .panning");
+    $imagePan=$(".contact.jumbotron");
+    $imagePan_container=$(".contact.jumbotron .imagePanner");
+
+    $(this).bind("mousemove", function(event){
+        MouseMove(event);
+    });
+  });
 });
