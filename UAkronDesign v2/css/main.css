@@ -354,7 +354,7 @@ INFO PAGE
 	font-weight: 500;
 	color:#FFF;
 	text-align: left;
-	margin-top:-6.4em;
+	margin-top:-7.4em;
   position: absolute;
 }
 
@@ -486,7 +486,7 @@ CONTACT PAGE
     padding-left:0;
   }
 
-  .blurb h4 {
+  .blurb h4, .page h4 {
     font-size: 4em;
     text-align: center;
   }
