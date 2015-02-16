@@ -63,6 +63,7 @@ if (document.getElementById('info')){
 	}, 1800 );
 };
 
+
 $(window).load(function() {
   //$outer_container=$("#intro");
   $imagePan_panning=$(".jumbotron .panning");
@@ -134,4 +135,9 @@ $(window).load(function() {
         MouseMove(event);
     });
   });
+
+});
+
+$(document).ready( function(){
+  $('.focuspoint').focusPoint();
 });
