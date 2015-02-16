@@ -345,6 +345,7 @@ INFO PAGE
 .page {
 	height:60%;
 	width: 100%;
+  position: relative;
 }
 
 .page h4 {
@@ -353,7 +354,8 @@ INFO PAGE
 	font-weight: 500;
 	color:#FFF;
 	text-align: left;
-	margin-top:1.4em;
+	margin-top:-6.4em;
+  position: absolute;
 }
 
 .quickStats {
