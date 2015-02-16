@@ -1,6 +1,6 @@
 if (document.getElementById('info')){
 
-    var el = document.querySelector('.rate');
+  var el = document.querySelector('.rate');
 	od1 = new Odometer({
 	  el: el,
 	  value: 00,
