@@ -11,8 +11,6 @@ if (document.getElementById('info')){
 	  el: el,
 	  value: 00,
 	});
-
-
 	var el = document.querySelector('.ratio2');
 	od3 = new Odometer({
 	  el: el,
@@ -63,19 +61,21 @@ if (document.getElementById('info')){
 	setTimeout( function(){
 		od7.update(1919)
 	}, 1800 );
-}
+};
+
 
 $(window).load(function() {
-    $imagePan_panning=$(".jumbotron .panning");
-    $imagePan=$(".jumbotron");
-    $imagePan_container=$(".jumbotron .panme");
- 
-    $imagePan_panning.css("margin-top",($imagePan.height()-$imagePan_panning.height())/2+"px");
+  //$outer_container=$("#intro");
+  $imagePan_panning=$(".jumbotron .panning");
+  $imagePan=$(".jumbotron");
+  $imagePan_container=$(".jumbotron .imagePanner");
+
+    //$imagePan_panning.css("margin-top",($imagePan.height()-$imagePan_panning.height())/2+"px");
     containerWidth=$imagePan.width();
     containerHeight=$imagePan.height();
     totalContentW=$imagePan_panning.width();
     totalContentH=$imagePan_panning.height();
-    //$imagePan_container.css("width",totalContentW).css("height",totalContentH);
+    $imagePan_container.css("width",totalContentW).css("height",totalContentH);
  
     function MouseMove(e){
         var mouseCoordsX=(e.pageX - $imagePan.offset().left);
@@ -105,13 +105,7 @@ $(window).load(function() {
  
     $imagePan_panning.css("margin-left",($imagePan.width()-$imagePan_panning.width())/2).css("margin-top",($imagePan.height()-$imagePan_panning.height())/2);
  
-    $imagePan.bind("mousemove", function(event){
+  $imagePan.bind("mousemove", function(event){
         MouseMove(event);
     });
-});
- 
-$(window).resize(function() {
-    $imagePan.unbind("mousemove");
-    $imagePan_container.css("top",0).css("left",0);
-    $(window).load();
 });
