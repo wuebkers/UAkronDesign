@@ -318,12 +318,15 @@ section.jumbotron .blurb {
 }
 
 figcaption h6 {
-  text-align:center;
-  color:#FFF;
-  font-size: 2em;
-  font-family: 'Source Sans Pro', sans-serif;
+  text-align: right;
+  color: #FFF;
+  font-size: 2.6em;
+  font-family: 'Opens Sans' sans-serif;
   font-weight: 300;
   position: relative;
+  margin-top: -21em;
+  margin-right: .6em;
+
 }
 
 @media screen and (min-width:768px) {
